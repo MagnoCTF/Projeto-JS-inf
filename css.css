@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    
+    background-color: black;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    gap: 10px;
+    
+    
+}
+
+
+.menu li{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    
+}
+.menu a{
+    padding: 10px 10px 10px 10px;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+    margin: 5% 10% 5% 10%;
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+
+
+}
+.divrod{
+    margin: 1% 0% 1% 0%;
+}
+
+.imagen_produto{
+    width: 100%;
+    border-radius: 5% 5% 0% 0%;
+    border-bottom: solid;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.promocao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-top: solid;
+    padding-top: 40px;
+}
+
+.botao_comprar{
+    padding: 1% 1% 1% 1%;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+.botao_comprar:hover{
+    background-color: white;
+    color: black;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+#carrinho{
+    width: 40px;
+    height: 40px;
+
+}
+
+#carrinho:hover{
+    background-color: white;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px;
+    border-top: solid;
+}
